@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "gui",
+  "version": "1.0.0",
+  "name": "Gui",
+  "description": "Custom GUI mod skeleton",
+  "authors": ["You"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["me.Gui.gui.Gui"],
+    "client": ["me.Gui.gui.client.GuiClient"]
+  },
+  "mixins": ["gui.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "fabric-api": "*",
+    "minecraft": "1.21.4"
+  }
+}
